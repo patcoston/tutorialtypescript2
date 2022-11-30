@@ -13,7 +13,24 @@ git push -u origin main
 npm i
 npm run dev
 http://127.0.0.1:5173/
+npm i @mui/material @emotion/react @emotion/styled
+npm i @mui/x-data-grid @mui/icons-material
+npm i react-router-dom@6 formik yup
+npm i @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list
+npm i @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo
+npm i react-pro-sidebar@0.7.1 <-- newer version breaks tutorial
 
+https://mui.com/
+https://nivo.rocks/
+https://fullcalendar.io/
+https://fonts.google.com/
+Source Sans Pro
+Regular 400
+SemiBold 600
+Bold 700
+(*) Import
+Copy/Paste into index.css
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
 
 Snippets
