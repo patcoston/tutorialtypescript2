@@ -2,7 +2,7 @@ import { createContext, useState, useMemo } from 'react'
 import { createTheme } from '@mui/material/styles'
 
 // color design tokens
-export const tokens = mode => ({
+export const tokens = (mode: string) => ({
   ...(mode === 'dark'
     ? {
         grey: {
@@ -120,12 +120,13 @@ export const tokens = mode => ({
       }),
 })
 
-export const themeSettings = mode => {
+// TODO: mode is string, but when set to type string, I see an error
+export const themeSettings = (mode: string) => {
   const colors = tokens(mode)
 
   return {
     palette: {
-      mode,
+      mode: mode,
       ...(mode === 'dark'
         ? {
             primary: {

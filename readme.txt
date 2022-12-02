@@ -21,6 +21,7 @@ npm i @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo
 npm i react-pro-sidebar@0.7.1 <-- newer version breaks tutorial
 
 https://mui.com/
+https://mui.com/material-ui/material-icons/
 https://nivo.rocks/
 https://fullcalendar.io/
 https://fonts.google.com/
