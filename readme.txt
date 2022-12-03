@@ -36,4 +36,15 @@ Copy/Paste into index.css
 
 Snippets
 https://github.com/ults-io/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
+rafce
+import React from 'react'
+
+const Dashboard = () => {
+  return <div>Dashboard</div>
+}
+
+export default Dashboard
+
+
+
 
