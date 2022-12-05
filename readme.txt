@@ -36,6 +36,9 @@ Bold 700
 Copy/Paste into index.css
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
+Completed Code
+https://github.com/ed-roh/react-admin-dashboard
+
 
 Snippets
 https://github.com/ults-io/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
