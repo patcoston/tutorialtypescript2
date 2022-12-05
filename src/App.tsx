@@ -1,3 +1,4 @@
+import { FC } from 'react'
 import { ColorModeContext, useMode } from './theme'
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import Topbar from './scenes/global/Topbar'
@@ -15,7 +16,7 @@ import { Route, Routes } from 'react-router-dom'
 // import Geography from '.scenes/global/geography'
 // import Calendar from '.scenes/global/calendar'
 
-function App() {
+const App: FC = () => {
   const [theme, colorMode] = useMode()
 
   return (
