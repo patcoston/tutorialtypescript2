@@ -23,6 +23,9 @@ npm i react-pro-sidebar@0.7.1 <-- newer version breaks tutorial
 https://mui.com/
 https://mui.com/material-ui/material-icons/
 https://nivo.rocks/
+https://github.com/azouaoui-med/react-pro-sidebar
+https://formik.org/docs/overview#installation
+https://github.com/jquense/yup
 https://fullcalendar.io/
 https://fonts.google.com/
 Source Sans Pro
