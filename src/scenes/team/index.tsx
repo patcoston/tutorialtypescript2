@@ -14,7 +14,7 @@ type rowType = {
   }
 }
 
-type columnsType = {
+type columnType = {
   field: string
   headerName: string
   type?: string
@@ -28,8 +28,11 @@ type columnsType = {
 const Team: FC = () => {
   const theme = useTheme()
   const colors = tokens(theme.palette.mode)
-  const columns: columnsType = [
-    { field: 'id', headerName: 'ID' },
+  const columns: columnType = [
+    {
+      field: 'id',
+      headerName: 'ID',
+    },
     {
       field: 'name',
       headerName: 'Name',
@@ -60,19 +63,19 @@ const Team: FC = () => {
       renderCell: ({ row: { access } }) => {
         return (
           <Box
-            width="60%"
-            m="0 auto"
-            p="5px"
-            display="flex"
-            justifyContent="center"
-            backgroundColor={
-              access === 'admin'
-                ? colors.greenAccent[600]
-                : access === 'manager'
-                ? colors.greenAccent[700]
-                : colors.greenAccent[700]
-            }
-            borderRadius="4px"
+            sx={{
+              width: '60%',
+              m: '0 auto',
+              display: 'flex',
+              justifyContent: 'center',
+              borderRadius: '4px',
+              backgroundColor:
+                access === 'admin'
+                  ? colors.greenAccent[600]
+                  : access === 'manager'
+                  ? colors.greenAccent[700]
+                  : colors.greenAccent[700],
+            }}
           >
             {access === 'admin' && <AdminPanelSettingsOutlinedIcon />}
             {access === 'manager' && <SecurityOutlinedIcon />}
