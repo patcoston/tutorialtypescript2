@@ -8,10 +8,27 @@ import LockOpenOutlinedIcon from '@mui/icons-material/LockOpenOutlined'
 import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined'
 import Header from '../../components/Header'
 
+type rowType = {
+  row: {
+    access: string
+  }
+}
+
+type columnsType = {
+  field: string
+  headerName: string
+  type?: string
+  headerAlign?: string
+  align?: string
+  flex?: number
+  cellClassName?: string
+  renderCell?: ({ row: { access } }: rowType) => JSX.Element
+}[]
+
 const Team: FC = () => {
   const theme = useTheme()
   const colors = tokens(theme.palette.mode)
-  const columns = [
+  const columns: columnsType = [
     { field: 'id', headerName: 'ID' },
     {
       field: 'name',
