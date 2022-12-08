@@ -19,6 +19,8 @@ npm i react-router-dom@6 formik yup
 npm i @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list
 npm i @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo
 npm i react-pro-sidebar@0.7.1 <-- newer version breaks tutorial
+npm i @fullcalendar/interaction
+npm i @fullcalendar/react
 
 https://mui.com/
 https://mui.com/x/react-data-grid/
