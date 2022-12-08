@@ -56,11 +56,9 @@ const Calendar: FC = () => {
         {/* CALENDAR SIDEBAR */}
         <Box
           flex="1 1 20%"
+          bgcolor={colors.primary[400]}
           p="15px"
           borderRadius="4px"
-          sx={{
-            backgroundColor: colors.primary[400],
-          }}
         >
           <Typography variant="h5">Events</Typography>
           <List>
