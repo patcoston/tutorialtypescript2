@@ -115,7 +115,7 @@ const Sidebar: FC = () => {
                   fontWeight="bold"
                   sx={{ m: '10px 0 0 0' }}
                 >
-                  Ed Roh
+                  Pat Coston
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   VP Fancy Admin
@@ -222,7 +222,7 @@ const Sidebar: FC = () => {
             />
             <Item
               title="Geography Chart"
-              to="/geography"
+              to="/geo"
               icon={<MapOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
